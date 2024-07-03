@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 35vh;
+
+    background-image: url('/Projeto_8/assets/img-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Topo */
+
+.container-topo {
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    width: 95%;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.secao-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.secao-topo span {
+    color: rgb(36, 165, 201);
+}
+
+.secao-topo a {
+    color: #000;
+}
+
+.link-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link-topo a {
+    color: #333333;
+    font-size: 18px;
+}
+
+/* Textos */
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    padding: 20px 13px;
+}
+
+.textos h2,p {
+    color: #565656;
+}
+
+.textos h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.textos p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+/*Quartos*/
+
+.secao-quarto {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-quarto img{
+    width: 400px;
+    height: 220px;
+    margin: 7px;
+}
+
+.items-quartos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.items-quartos h2 {
+    text-align: center;
+    padding: 10px 10px;
+    color: #333333;
+    font-size: 20px;
+}
+
+ul {
+    max-width: 1024px;
+    max-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 10px 25px;
+}
+
+li {
+    margin: 15px 20px;
+    padding: 10px;
+    color: #333333;
+}
+
+/* Footer */
+
+.container-rodape, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #068045;
+    color: #fff;
+}
+
+.container-rodape {
+    border-bottom: 1px solid #045930 ;
+}
+
+footer p {
+    color: #fff;
+    margin: 10px;
+}
+
+.secao-rodape {
+    width: 200px;
+    margin: 15px 25px;
+    padding: 15px 10px;
+}
+
+.container-rodape a {
+    display: flex;
+    font-size: 12px;
+}
+
+.container-rodape p {
+    color: #fff;
+    padding: 5px;
+}
+
+.container-rodape img {
+    width: 30px;
+    height: 35px;
+}
+
+.maps-link {
+    width: 220px;
+    margin: 15px 20px;
+    padding: 15px 10px;
+}
+
+.telefone {
+    width: 220px;
+    margin: 15px 20px;
+    padding: 15px 10px;
+}
+
+.booking-link {
+    width: 220px;
+    margin: 15px 20px;
+    padding: 15px 10px;
+}
